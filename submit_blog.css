@@ -1,8 +1,8 @@
-body{
+body {
     background-color: rgb(144, 179, 209);
 }
 
-#user-input{
+#user-input {
     border-radius: 3px;
     border: 2px solid black;
     text-align: center;
@@ -11,55 +11,55 @@ body{
     width: 200px;
 }
 
-#title{
+#title {
     font-size: 40px;
     font-family: Helvetica;
     text-align: center;
- }
+}
 
-#username{
+#username {
     background-color: rgb(248, 91, 91);
-    
- }
 
-#title-of-post{
+}
+
+#title-of-post {
     background-color: rgb(248, 91, 91);
 }
 
- #message{
+#message {
     background-color: rgb(248, 91, 91);
- }
+}
 
-#switch{
+#switch {
     display: flex;
     justify-content: center;
 }
 
- #switch-to-home{
+#switch-to-home {
     height: auto;
     background-color: rgb(28, 177, 214);
     border-radius: 3px;
     border: 2px solid black;
     margin-bottom: 10px;
- }
+}
 
-#button{
+#button {
     display: flex;
     justify-content: center;
 }
 
- #Submit{
+#Submit {
     font-family: Helvetica;
     font-size: 75px;
     width: 700px;
     height: 200px;
     background-color: rgb(67, 212, 67);
     margin-top: 75px;
- }
+}
 
- @media(max-width: 360px){
-    
-    #all_messages{
+@media(max-width: 360px) {
+
+    #all_messages {
         width: 340px;
         height: auto;
     }

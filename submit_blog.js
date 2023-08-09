@@ -7,7 +7,7 @@ const button = document.getElementById("Submit");
 
 button.onclick = updateDB;
 
-function updateDB(){
+function updateDB() {
     const username = username_input.value;
     const title = title_input.value
     const message = message_input.value;
@@ -32,7 +32,7 @@ function updateDB(){
 
 database.on("child_added", addMessageToBoard);
 
-function addMessageToBoard(rowData){
+function addMessageToBoard(rowData) {
     const row = rowData.val();
     const username_input_value = row.NAME;
     const title_input_value = row.TITLE;
