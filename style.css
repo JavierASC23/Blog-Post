@@ -1,0 +1,42 @@
+ 
+ #title{
+    font-size: 60px;
+    font-family: Helvetica;
+    text-align: center;
+ }
+ 
+ body{
+    background-color: rgb(255, 131, 99);
+ }
+ 
+#for_button{
+    display: flex;
+    justify-content: center;
+}
+
+ #Submit{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(28, 177, 214);
+    border-radius: 3px;
+    border: 2px solid black;
+ }
+ 
+ #all_messages{
+    
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+
+ }
+
+@media(max-width: 360px){
+   #all_messages{
+        width: 100%;
+        height: 100%;
+    }
+}
+
